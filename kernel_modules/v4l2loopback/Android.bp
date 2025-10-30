@@ -1,0 +1,11 @@
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+
+kernel_module {
+    name: "v4l2loopback.ko",
+    vendor: true,
+    srcs: [
+        "v4l2loopback.c",
+    ],
+    kernel_build: "kernel",
+}
