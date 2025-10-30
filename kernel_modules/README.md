@@ -19,7 +19,7 @@ Creates virtual V4L2 (Video4Linux2) loopback devices for video streaming and vir
 - Configurable device parameters
 - Automatic loading at boot
 
-**Status:** ✅ Integrated and ready to build
+**Status:** Integrated and ready to build
 
 ## Building Kernel Modules
 
@@ -93,7 +93,7 @@ All kernel modules are installed to:
 
 ## Requirements
 
-- Root access required for loading/unloading modules
+- Root access required for loading and unloading modules
 - Kernel must have `CONFIG_MODULES=y` enabled
 - Module must match kernel version exactly
 - SELinux may require policy adjustments
