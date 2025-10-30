@@ -104,3 +104,4 @@ moto_f_usbnet.ko
 touchscreen_mmi.ko
 stmicro_mmi.ko
 mmi_sys_temp.ko
+v4l2loopback.ko
